@@ -2,7 +2,9 @@ require 'sinatra'
 require 'sinatra/reloader' if development?
 
 get '/' do
-  'hello!'
+  "<div>
+    <img src='http://placekitten.com/500/500'>
+  </div>"
 end
 
 get '/secret' do
